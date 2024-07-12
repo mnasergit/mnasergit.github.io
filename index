@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>কৃত্রিম বুদ্ধিমত্তা | বাংলায়</title>
+    
+    
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="কৃত্রিম বুদ্ধিমত্তা | বাংলায়">
+	
+	<meta name="twitter:site" content="@raqueeb">
+	<meta name="twitter:creator" content="@raqueeb">
+	
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://aiwithr.github.io/images/wood-texture-1600x800.jpg">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="bn_BD">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="কৃত্রিম বুদ্ধিমত্তা | বাংলায়">
+	
+	<meta property="og:url" content="https://aiwithr.github.io/">
+	<meta property="og:site_name" content="কৃত্রিম বুদ্ধিমত্তা | বাংলায়">
+    
+
+    <link rel="canonical" href="https://aiwithr.github.io/">
+
+    <link href="https://aiwithr.github.io/atom.xml" type="application/atom+xml" rel="alternate" title="কৃত্রিম বুদ্ধিমত্তা | বাংলায় Atom Feed">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="https://aiwithr.github.io/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="https://aiwithr.github.io/js/vendor/html5shiv.min.js"></script>
+      <script src="https://aiwithr.github.io/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="https://aiwithr.github.io/" class="site-title">কৃত্রিম বুদ্ধিমত্তা | বাংলায়</a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">কৃত্রিম বুদ্ধিমত্তা | বাংলায়</a></li>
+	
+    
+    <li><a href="https://aiwithr.github.io/why/" >কেন?</a></li>
+  
+    
+    <li><a href="https://aiwithr.github.io/getting-started/" >শুরু কোথায়?</a></li>
+  
+    
+    <li><a href="https://aiwithr.github.io/resources/" >রিসোর্স</a></li>
+  
+    
+    <li><a href="https://aiwithr.github.io/ds_roadmap/" >রোডম্যাপ</a></li>
+  
+    
+    <li><a href="https://aiwithr.github.io/mentorship/" >মেন্টরশীপ</a></li>
+  
+    
+    <li><a href="https://aiwithr.github.io/about/" >আমি কে?</a></li>
+  
+</ul>
+    </nav>
+  </div><!-- /.inner-wrap -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5574703-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-5574703-3');
+</script>
+</header><!-- /.masthead -->
+
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>কৃত্রিম বুদ্ধিমত্তা | বাংলায় <span></span></h5>
+  <ul class="menu-item">
+    <li>
+      <a href="https://aiwithr.github.io/why/">
+        <img src="https://aiwithr.github.io/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">কেন?</div>
+        <p class="excerpt">কেন দরকার ইন্টেলিজেন্ট সিস্টেম?</p>
+      </a>
+    </li><li>
+      <a href="https://aiwithr.github.io/getting-started/">
+        <img src="https://aiwithr.github.io/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">শুরু কোথায়?</div>
+        <p class="excerpt">কিভাবে আমরা শুরু করবো, কি শিখতে চাইবো?</p>
+      </a>
+    </li><li>
+      <a href="https://aiwithr.github.io/resources/">
+        <img src="https://aiwithr.github.io/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">রিসোর্স</div>
+        <p class="excerpt">বাংলায় ইন্টেলিজেন্ট সিস্টেম নিয়ে আমার তৈরি করা রিসোর্স</p>
+      </a>
+    </li><li>
+      <a href="https://aiwithr.github.io/ds_roadmap/">
+        <img src="https://aiwithr.github.io/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">রোডম্যাপ</div>
+        <p class="excerpt">বাংলায় ডাটা সাইন্স/অ্যানালিটিক্স রোডম্যাপ</p>
+      </a>
+    </li><li>
+      <a href="https://aiwithr.github.io/mentorship/">
+        <img src="https://aiwithr.github.io/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">মেন্টরশীপ</div>
+        <p class="excerpt">ডেটা-সাইন্স নিয়ে নন-প্রোগ্রামারদের জন্য 'এক্সক্লুসিভ' মেন্টরশীপ</p>
+      </a>
+    </li><li>
+      <a href="https://aiwithr.github.io/about/">
+        <img src="https://aiwithr.github.io/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">আমি কে?</div>
+        <p class="excerpt">আমি কে, কেন এলাম ইন্টেলিজেন্ট সিস্টেম নিয়ে?</p>
+      </a>
+    </li>
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+    
+    <div class="page-lead" style="background-image:url(https://aiwithr.github.io/images/wood-texture-1600x800.jpg)">
+      <div class="wrap page-lead-content">
+        <h1>ইন্টেলিজেন্ট সিস্টেমের সন্ধানে</h1>
+        <h2>ডাটা সাইন্স/ডাটা অ্যানালিটিক্স রোডম্যাপ</h2>
+        <a href="https://aiwithr.github.io/getting-started/" class="btn-inverse">শুরু!</a> &nbsp; <a href="https://aiwithr.github.io/ds_roadmap/" class="btn-inverse">রোডম্যাপ</a> &nbsp; <a href="https://aiwithr.github.io/resources/" class="btn-inverse">বই</a>
+      </div><!-- /.page-lead-content -->
+    </div><!-- /.page-lead -->
+    
+
+    <div id="page-wrapper">
+      <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+
+      <div id="main" role="main">
+        <div class="wrap">
+          <div class="page-title">
+            <h1></h1>
+            
+          </div>
+          <div class="archive-wrap">
+            <div class="page-content">
+              <div class="tiles">
+
+<div class="tile">
+  <h2 class="post-title">ডেটা, স্ট্র্যাটেজিক অ্যাসেট</h2>
+  <p class="post-excerpt">বাংলাদেশ, অপার সম্ভাবনার দেশ। আমাদের বিশাল জনবল এবং সেটার রিসোর্স ম্যানেজমেন্ট করতে ঢুকতেই হবে প্রসেস অপটিমাইজেশনে। আর সেটার প্রথম ধাপ হচ্ছে - ম্যানুয়াল প্রসেস থেকে অটোমেশন। তার জন্য দরকার ডেটা থেকে জ্ঞান আহরন। ডেটার ভেতরে লুকিয়ে আছে অনেক অজানা জ্ঞান। আমাদের ডেটা আছে, দরকার প্রসেস করার জ্ঞান।</p>
+</div><!-- /.tile -->
+
+<div class="tile">
+  <h2 class="post-title">ইন্টেলিজেন্স, সিস্টেমকে</h2>
+  <p class="post-excerpt">ডেটা থেকে প্রজ্ঞা নিতে শুরুতে দরকার ভালো 'ডিসিশন সাপোর্ট সিস্টেম'। মানুষ সিদ্ধান্তের লুপে থাকলেও ভালো সিদ্ধান্ত নিতে দরকার ডেটা থেকে জ্ঞান আহরণের আইডিয়া। সেটার প্রসেসে গতি বাড়িয়ে দেবে 'ইন্টেলিজেন্ট মেশিন', সমাজের অসঙ্গতি দূর করতে। কাজের শুরুতে 'রুল বেসড' সিস্টেম। সবকিছুতে সিদ্ধান্তের প্রসেস-ফ্লো।</p>
+</div><!-- /.tile -->
+
+<div class="tile">
+  <h2 class="post-title"><a href="https://aiwithr.github.io/aibook/">কৃত্রিম বুদ্ধিমত্তা</a></h2>
+  <p class="post-excerpt">অবশ্যই আমরা চাইছি যন্ত্রকে উদ্ভাবনা করতে এমনভাবে, যাতে আমাদের মতো করে চিন্তা করতে পারে। সেটার বহিঃপ্রকাশ দেখছি রোগ নির্ণয়ে, সেলফড্রাইভিং কার, এয়ারপোর্ট ম্যানেজমেন্ট, লং হ্যল ফ্লাইট ইত্যাদিতে, এর মানে হচ্ছে আমরা চাইছি যন্ত্র সহযোগী হিসেবে দাড়াক আমাদের পাশে। তথ্য দিয়ে ভালো সিদ্ধান্ত দিতে।</p>
+</div><!-- /.tile -->
+
+<div class="tile">
+  <h2 class="post-title">আমাদের চিন্তা যন্ত্রকে</h2>
+  <p class="post-excerpt">আমরা যেভাবে চিন্তা করি সেটার অনেক কিছুই দিয়ে দেয়া হয়েছে যন্ত্রকে। একটা এলিভেটর ঠিক কোন সময় পর্যন্ত কল নেবে, অথবা উপরে ওভারলোডেড হলে বাইরের কলে প্রতিটা ফ্লোরে দাড়াবে কিনা, এরকম অনেক কাজ হচ্ছে এখনই। এই কাজ হতে হবে সব জায়গায়। এর শুরুটা হবে 'মেশিন লার্নিং' দিয়ে। তো, শিখতে চান?</p>
+</div><!-- /.tile -->
+
+</div>
+<!-- /.tiles -->
+
+            </div><!-- /.page-content -->
+          </div class="archive-wrap"><!-- /.archive-wrap -->
+        </div><!-- /.wrap -->
+      </div><!-- /#main -->
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="https://aiwithr.github.io/" >কৃত্রিম বুদ্ধিমত্তা</a></li>
+		
+      
+			<li><a href="https://aiwithr.github.io/why/" >কেন?</a></li>
+		
+      
+			<li><a href="https://aiwithr.github.io/articles/" >আর্টিকেল</a></li>
+		
+      
+			<li><a href="https://aiwithr.github.io/classes/" >মিনি ক্লাস</a></li>
+		
+      
+			<li><a href="https://aiwithr.github.io/resources/" >রিসোর্স</a></li>
+		
+      
+			<li><a href="https://aiwithr.github.io/media/" >প্রাইভেসী</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2024 <a href="https://aiwithr.github.io">কৃত্রিম বুদ্ধিমত্তা | বাংলায়</a> powered by <a href="http://jekyllrb.com">Jekyll.</a></p>
+</footer>
+
+    </div>
+
+    <script src="https://aiwithr.github.io/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="https://aiwithr.github.io/js/main.js"></script>
+  </body>
+</html>
