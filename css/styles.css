@@ -1,0 +1,188 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 1rem 0;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #444;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0rem;
+    text-align: left;
+    
+}
+
+.nav-content h1{
+    font-size: 40px;
+}
+
+.banner {
+    max-width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 0px rgba(0,0,0,0.1);
+    background-color: #3a6f92;
+    font-size: 100;
+}
+
+.banner h1{
+    margin: auto;
+    padding: 0px;
+    color: #ffffff;
+}
+
+.banner img{
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    padding: auto;
+}
+
+/* Container */
+.container, .course-area, .album .container {
+    max-width: 960px;
+    margin: 0rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.course-area {
+    background: #ffffffa0;
+    height: auto;
+}
+
+.course-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+.card-area {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card-img-area {
+    overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+}
+
+.card-footer {
+    padding: 0.5rem 1rem;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.card-footer p {
+    margin-bottom: 0;
+}
+
+.btn-primary{color:#fff;
+    background-color:#007bff;
+    border-color:#007bff
+}
+
+.btn-primary:hover{color:#fff;
+    background-color:#0069d9;
+    border-color:#0062cc
+}
+
+.btn-primary:focus{box-shadow:0 0 0 3px rgba(0,123,255,.5)
+}
+
+.btn-primary:disabled{background-color:#007bff;
+    border-color:#007bff}
+    
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.album {
+    min-height: 50rem; /* Can be removed; just added for demo purposes */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.album .row {
+    margin-bottom: 25px;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
