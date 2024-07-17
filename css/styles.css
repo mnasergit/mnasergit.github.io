@@ -80,6 +80,53 @@ nav {
     size: 100%;
 }
 
+.menu-area {
+    max-width: 100%;
+    height: 50px;
+    box-shadow: 0 0 0px rgba(255, 255, 255, 0.1);
+    background-color: #ffffff;
+}
+
+.menu-area-content {
+    width: 960px;
+    margin: auto;
+    margin-top: 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #bfa8a8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.menu-area-content ul{
+    list-style:none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.menu-area-content ul li{
+    float: left;
+    max-width:68em;
+    text-align: center;
+    margin-left:30px;
+    margin-right:30px;
+    font-size: 200;
+}
+
+.menu-area-content ul li a{
+    display: block;
+    float: none;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: bold;
+    
+    position: relative;
+    
+}
+
+.menu-area-content ul li a:hover{
+    background:red;
+}
+
 /* Container */
 .container, .course-area, .album .container {
     max-width: 960px;
@@ -157,13 +204,17 @@ nav {
 }
 
 /* Footer */
-footer {
+.footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
+    
+    float: left;
+    overflow: hidden;
     width: 100%;
-    height: 50px;
+    height: 40px;
+}
+
+.footer p{
+    margin-top: 8px;
 }
