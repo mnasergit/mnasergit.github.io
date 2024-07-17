@@ -45,7 +45,16 @@ nav {
     text-align: left;
 }
 
+.nav-logo{
+    display: inline;
+    float: left;
+    width: 35px;  /* Adjust the width as needed */
+    height: 35px; /* Adjust the height as needed */
+    margin-top: 6px;
+    margin-right: 15px; /* Add space between the logo and the title */
+}
 .nav-content h1{
+    float: left;
     font-size: 25px;
     padding-top: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -84,6 +93,7 @@ nav {
     max-width: 100%;
     height: 50px;
     margin-top: -20px;
+    float:none;
     box-shadow: 0 0 0px rgba(255, 255, 255, 0.1);
     background-color: #ffffff;
 }
