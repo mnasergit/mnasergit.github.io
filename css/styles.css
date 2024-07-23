@@ -305,10 +305,6 @@ nav {
     background: #e1c158;
 }
 
-.side-bar-area-content ul li a:checked{
-    background: #e1c158;
-}
-
 .side-bar-area-content ul li ul{
     background:inherit;   
     margin-top: 0px;
@@ -323,6 +319,15 @@ nav {
     display: block;
     
 }
+
+/* Add styles for active menu item */
+.side-bar-area-content ul li ul li a.active {
+    background-color: #e1c158; /* or any color you want for the active state */
+    color: #333; /* Adjust text color if needed */
+    border-radius: 10px; /* Optional: add rounded corners */
+    font-weight: bold;
+}
+
 
 .tutorial-area{
     margin-left: 350px;
