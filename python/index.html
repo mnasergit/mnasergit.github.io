@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naser's Tech Blog</title>
+    <link rel="shortcut icon" href="images/title-logo.ico"/>
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <!-- Bootstrap core CSS -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include Marked library from CDN -->
+    <script src="../js/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+    
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <img class="nav-logo" src="../images/title-logo.ico" alt="mn-LAB Logo">
+            <h1>Md Abdullah Al Naser's Tech Blogs</h1>
+        </div>
+    </nav>
+    
+    <div class="side-bar-area">
+        
+        <div class="side-bar-area-content">
+            <img src="../images/python-thumbnail.jpeg" alt="">
+            <ul class="menu-item">
+            <li><a href="#" >Menu 1</a>
+                <ul>
+                <li><a href="#" >Menu a</a></li>
+                <li><a href="#" >Menu b</a></li>
+                </ul>
+            </li>
+            <li><a href="#" >Menu 2</a>
+                <ul>
+                <li><a href="#" >Menu a</a></li>
+                <li><a href="#" >Menu b</a></li>
+                </ul>
+            </li>
+            <li><a href="#" >Menu 3</a>
+                <ul>
+                <li><a href="#" >Menu a</a></li>
+                <li><a href="#" >Menu b</a></li>
+                </ul>
+            </li>
+            <li><a href="#" >Menu 4</a>
+                <ul>
+                <li><a href="#" >Menu a</a></li>
+                <li><a href="#" >Menu b</a></li>
+                </ul>
+            </li>
+            <li><a href="#" >Menu 5</a>
+                <ul>
+                <li><a href="#" >Menu a</a></li>
+                <li><a href="#" >Menu b</a></li>
+                </ul>
+            </li>
+            <li><a href="#" >Menu 6</a>
+                <ul>
+                <li><a href="#" >Menu a</a></li>
+                <li><a href="#" >Menu b</a></li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="tutorial-area">
+        <!--<img src="images/banner.png" alt="Card image cap">-->
+        <h1>Tutorial starts here</h1>
+    </div>
+    
+
+    <div class="footer">
+        <p>&copy; 2024 Md Abdullah Al Naser's Tech Blogs</p>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log('DOM fully loaded and parsed');
+    
+            // Verify if showdown is defined
+            if (typeof showdown === 'undefined') {
+                console.error('Showdown library is not loaded correctly.');
+                return;
+            }
+    
+            const converter = new showdown.Converter();
+    
+            fetch('test.md')
+                .then(response => {
+                    console.log('Fetch response:', response);
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text();
+                })
+                .then(markdown => {
+                    console.log('Markdown content:', markdown);
+                    const htmlContent = converter.makeHtml(markdown);
+                    document.querySelector('.tutorial-area').innerHTML = htmlContent;
+    
+                    // Adjust the height of the sidebar to match the height of the tutorial area
+                    const tutorialArea = document.querySelector('.tutorial-area');
+                    const sideBarArea = document.querySelector('.side-bar-area');
+                    // if (tutorialArea && sideBarArea) {
+                    //     sideBarArea.style.height = `${tutorialArea.offsetHeight}px`;
+                    // }
+                })
+                .catch(error => console.error('Error fetching markdown:', error));
+        });
+    </script>
+
+
+</body>
+</html>
