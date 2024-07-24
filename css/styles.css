@@ -48,6 +48,19 @@ nav {
     margin: 0 auto;
     padding: 0rem;
     text-align: left;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+       
+}
+
+.nav-title {
+    display: flex;
     
 }
 
@@ -58,14 +71,42 @@ nav {
     height: 35px; /* Adjust the height as needed */
     margin-top: 6px;
     margin-right: 15px; /* Add space between the logo and the title */
+
+
 }
 .nav-content h1{
     float: left;
     font-size: 25px;
     padding-top: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
+.home-button {
+    padding: 0.5em 1em;
+    background-color: #416891;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 450px; /* Pushes the home button to the right */
+    
+
+    display: inline-block;
+    padding: 0.5rem 1rem;
+
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.home-button:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #6093ca;
+}
 
 .banner {
     max-width: 100%;
