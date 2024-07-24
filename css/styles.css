@@ -331,7 +331,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 1em; /* Add some padding to the right for spacing */
+    padding-right: 0.5em; /* Add some padding to the right for spacing */
 }
 
 .side-bar-menu .expandable > a::after {
