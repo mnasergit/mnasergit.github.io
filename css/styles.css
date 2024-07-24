@@ -116,12 +116,11 @@ nav {
     flex-wrap: wrap;
     box-shadow: 0 0 0px rgba(0,0,0,0.1);
     background-color: #3a6f92;
-    font-size: 100;
 }
 
 .banner h1{
     margin: auto;
-    padding: 0px;
+    padding: 90px;
     color: #ffffff;
     font-size: 52px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
