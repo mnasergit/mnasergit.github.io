@@ -24,38 +24,38 @@
         
         <div class="side-bar-area-content">
             <img src="../images/python-thumbnail.jpeg" alt="">
-            <ul class="menu-item">
-            <li><a href="#" >Menu 1</a>
+            <ul class="side-bar-menu">
+            <li class="expandable"><a href="#" >Menu 1</a>
                 <ul>
                 <li><a href="#" data-file="test.md">Menu a</a></li>
                 <li><a href="#">Menu b</a></li>
                 </ul>
             </li>
-            <li><a href="#" >Menu 2</a>
+            <li class="expandable"><a href="#" >Menu 2</a>
                 <ul>
                 <li><a href="#" data-file="test.md">Menu a</a></li>
                 <li><a href="#" >Menu b</a></li>
                 </ul>
             </li>
-            <li><a href="#" >Menu 3</a>
+            <li class="expandable"><a href="#" >Menu 3</a>
                 <ul>
                 <li><a href="#" >Menu a</a></li>
                 <li><a href="#" >Menu b</a></li>
                 </ul>
             </li>
-            <li><a href="#" >Menu 4</a>
+            <li class="expandable"><a href="#" >Menu 4</a>
                 <ul>
                 <li><a href="#" >Menu a</a></li>
                 <li><a href="#" >Menu b</a></li>
                 </ul>
             </li>
-            <li><a href="#" >Menu 5</a>
+            <li class="expandable"><a href="#" >Menu 5</a>
                 <ul>
                 <li><a href="#" >Menu a</a></li>
                 <li><a href="#" >Menu b</a></li>
                 </ul>
             </li>
-            <li><a href="#" >Menu 6</a>
+            <li class="expandable"><a href="#" >Menu 6</a>
                 <ul>
                 <li><a href="#" >Menu a</a></li>
                 <li><a href="#" >Menu b</a></li>
@@ -144,6 +144,19 @@
                             })
                             .catch(error => console.error('Error loading the markdown file:', error));
                     }
+                });
+            });
+        });
+
+        // Expand/collapse submenus
+        document.addEventListener('DOMContentLoaded', function () {
+            const expandableItems = document.querySelectorAll('.side-bar-area-content .expandable > a');
+
+            expandableItems.forEach(item => {
+                item.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const parentLi = this.parentElement;
+                    parentLi.classList.toggle('expanded');
                 });
             });
         });

@@ -278,9 +278,34 @@ nav {
     margin-right: 20px;
     text-align: left;
     list-style: none;
-    text-decoration:none;
-    
+    text-decoration:none;    
 }
+
+
+.side-bar-menu ul {
+    display: none;
+}
+
+.side-bar-menu .expandable > a {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1em; /* Add some padding to the right for spacing */
+}
+
+.side-bar-menu .expandable > a::after {
+    content: ' ▼';
+    font-size: 0.8em;
+}
+.side-bar-menu .expandable.expanded > a::after {
+    content: ' ▲';
+}
+.side-bar-menu .expandable.expanded ul {
+    display: block;
+}
+
+
 
 .side-bar-area-content ul li{
     background: inherit;
@@ -315,10 +340,10 @@ nav {
     
         
 }
-.side-bar-area-content ul li ul li a{
-    display: block;
+/* .side-bar-area-content ul li ul li a{
+    display: none;
     
-}
+} */
 
 /* Add styles for active menu item */
 .side-bar-area-content ul li ul li a.active {
@@ -327,6 +352,8 @@ nav {
     border-radius: 10px; /* Optional: add rounded corners */
     font-weight: bold;
 }
+
+
 
 
 .tutorial-area{
