@@ -209,6 +209,7 @@ nav {
     flex: 1 1 calc(33.333% - 20px);
     margin: 20px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    background-color: #e5e4e4;
 }
 
 .card-img-area {
