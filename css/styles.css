@@ -84,7 +84,7 @@ nav {
 
 .home-button {
     padding: 0.5em 1em;
-    background-color: #416891;
+    background-color: #1b5881;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -281,7 +281,7 @@ nav {
 
 
 .side-bar-area{
-    background: #dcdbdb;
+    background-color: #1b5881;
     
     text-align: left;
     width: 350px;
@@ -296,6 +296,7 @@ nav {
     left: 0;
     overflow-x:auto; /* Ensure vertical scrollbar appears if needed */
     overflow-y:auto;
+    
     
 }
 
@@ -319,40 +320,21 @@ nav {
     margin-right: 20px;
     text-align: left;
     list-style: none;
-    text-decoration:none;    
-}
+    text-decoration:none;
+    text-decoration: none;
+    font-style:italic;
+    
 
+}
 
 .side-bar-menu ul {
     display: none;
 }
 
-.side-bar-menu .expandable > a {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 0.5em; /* Add some padding to the right for spacing */
-}
-
-.side-bar-menu .expandable > a::after {
-    content: ' ▼';
-    font-size: 0.8em;
-}
-.side-bar-menu .expandable.expanded > a::after {
-    content: ' ▲';
-}
-.side-bar-menu .expandable.expanded ul {
-    display: block;
-}
-
-
-
 .side-bar-area-content ul li{
     background: inherit;
     margin-top: -10px;
 }
-
 
 .side-bar-area-content ul li a{
     display: block;
@@ -364,11 +346,11 @@ nav {
     position:relative ; 
     padding: 10px;
     border-radius: 10px ;
-    
 }
 
 .side-bar-area-content ul li a:hover{
     background: #e1c158;
+    color: #333;
 }
 
 .side-bar-area-content ul li ul{
@@ -377,22 +359,66 @@ nav {
 }
 
 .side-bar-area-content ul li ul li{
-    width: inherit;
-    
-        
+    width: inherit;     
 }
-/* .side-bar-area-content ul li ul li a{
-    display: none;
+
+/* .side-bar-area-content ul li ul li a:hover{
+    color: #333;
+} */
+
+.side-bar-menu .expandable > a {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 0.5em; /* Add some padding to the right for spacing */
+    color: #f4f4f4;
+}
+
+.side-bar-menu .expandable > a::after {
+    content: ' ▼';
+    font-size: 0.8em;
+    
+}
+
+/* .side-bar-menu .expandable > a::after:hover {
+    color: #333;
+    
+} */
+
+.side-bar-menu .expandable.expanded > a::after {
+    content: ' ▲';
+    font-size: 0.8em;
+}
+.side-bar-menu .expandable.expanded ul {
+    display: block;
+    
+}
+
+.side-bar-menu .expandable.expanded a {
+    color: #f4f4f4;
+    
+}
+
+.side-bar-menu .expandable.expanded a:hover {
+    color: #333;
+    
+}
+
+/* .side-bar-menu .expandable.expanded a:active {
+    background-color: #e1c158;
+    color: #333;
     
 } */
 
 /* Add styles for active menu item */
 .side-bar-area-content ul li ul li a.active {
-    background-color: #e1c158; /* or any color you want for the active state */
-    color: #333; /* Adjust text color if needed */
-    border-radius: 10px; /* Optional: add rounded corners */
-    font-weight: bold;
-}
+    background-color: #e1c158; 
+    color: #333; 
+    border-radius: 10px;
+    /* font-weight: bold; */
+} 
+
 
 
 
