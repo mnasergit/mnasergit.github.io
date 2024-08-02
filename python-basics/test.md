@@ -1,6 +1,8 @@
-It can be difficult to understand data insights by examining individual data points or a table of information. Often, insights become more obvious when presented in an effective visual format. You can use data visualization (often called  “data viz”) techniques to help your audience interpret data in a concise, visual manner.
+> It can be difficult to understand data insights by examining individual data points or a table of information. Often, insights become more obvious when presented in an effective visual format. You can use data visualization (often called  “data viz”) techniques to help your audience interpret data in a concise, visual manner.
 
+```
 When creating data visualizations, you must strike a balance between presenting enough information for your audience to understand the meaning of the visualization and not overwhelming them with too much detail. In this reading, you’ll learn tips and techniques for crafting visualizations that are both impactful and effective. You’ll explore:
+```
 
 - Two frameworks for organizing data
     
